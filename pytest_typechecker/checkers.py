@@ -45,8 +45,6 @@ class MypyTypecheck(pytest.Item):
         self.add_marker("mypy")
 
     def runtest(self):
-        print(str(self.fspath))
-
         result = subprocess.run(["mypy", str(self.fspath)], capture_output=True)
         if result.returncode != 0:
             error_msg = result.stdout.decode()

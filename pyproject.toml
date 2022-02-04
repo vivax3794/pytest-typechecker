@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest_typechecker"
-version = "0.3.1"
+version = "0.3.2"
 description = "Run type checkers on specified test files"
 readme = "README.md"
 authors = ["vivax <vivax3794@protonmail.com>"]
