@@ -39,5 +39,6 @@ if you only want to run mypy and have it be xfail use this workaround: `test_rec
 this can be combined, for example `test_recursion_pyright_xmypy_types.py` will run only pyright and mypy, but run mypy in xfail mode.
 
 ### dont run specific checkers
+
 if you provide a `n` before the checker name, it will not be run.
 for example `test_recursion_nmypy_types.py` will run all checkers, except mypy.

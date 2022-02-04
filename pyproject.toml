@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest_typechecker"
-version = "0.3.2"
+version = "0.3.3"
 description = "Run type checkers on specified test files"
 readme = "README.md"
 authors = ["vivax <vivax3794@protonmail.com>"]
@@ -13,7 +13,7 @@ classifiers = [
     "Natural Language :: English",
     "Topic :: Software Development :: Testing",
 ]
-repository = "https://github.com/vivax3794/pytest-typehints"
+repository = "https://github.com/vivax3794/pytest-typechecker"
 
 [tool.poetry.plugins."pytest11"]
 "pytest_typechecker" = "pytest_typechecker.plugin"
